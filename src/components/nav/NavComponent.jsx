@@ -24,12 +24,12 @@ export const NavComponent = () => {
               </Offcanvas.Header>
               <Offcanvas.Body className="justify-content-end">
                 <Nav>
-                  <Nav.Link bsPrefix="navlink" href="#home" className="me-3">Home</Nav.Link>
-                  <Nav.Link bsPrefix="navlink" href="#services" className="me-3">Services</Nav.Link>
-                  <Nav.Link bsPrefix="navlink" href="#technology" className="me-3">Technology</Nav.Link>
-                  <Nav.Link bsPrefix="navlink" href="#case-studies" className="me-3">Case studies</Nav.Link>
-                  <Nav.Link bsPrefix="navlink" href="#about" className="me-3">About</Nav.Link>
-                  <Nav.Link bsPrefix="navlink" href="#hire-us" className="me-3">Hire us</Nav.Link>
+                  <Nav.Link bsPrefix="navlink" href="#home" className="me-4">Home</Nav.Link>
+                  <Nav.Link bsPrefix="navlink" href="#services" className="me-4">Services</Nav.Link>
+                  <Nav.Link bsPrefix="navlink" href="#technology" className="me-4">Technology</Nav.Link>
+                  <Nav.Link bsPrefix="navlink" href="#case-studies" className="me-4">Case studies</Nav.Link>
+                  <Nav.Link bsPrefix="navlink" href="#about" className="me-4">About</Nav.Link>
+                  <Nav.Link bsPrefix="navlink" href="#hire-us" className="me-4">Hire us</Nav.Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>

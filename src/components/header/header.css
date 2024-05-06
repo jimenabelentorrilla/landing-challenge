@@ -1,0 +1,33 @@
+.cnt-cont{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+.header-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    gap: 18px;
+}
+.header-title{
+    font-weight: 600;
+    color: var(--white);
+    line-height: 1.5em;
+}
+
+.header-parag{
+    color: var(--light-grey);
+    font-weight: 500;
+    line-height: 1.8em;
+}
+.btn{
+    font-size: 0.8em;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.btn-lg{
+    padding: 0.5rem 1.3rem;
+}

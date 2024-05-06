@@ -1,12 +1,12 @@
 :root {
   /*colors*/
-  --white: #FFFFFF; /**si*/
+  --white: #FFFFFF; /***/
   --black: #000000;
   --grey: #9EA3AB; /* footer**/
   --ultra-light-grey: #B2B2B2; /**parrafo our services y icons de clientes*/
   --light-grey: #9399A2; /**parrafos y letras de footer*/
   --dark-grey: #273244;  /**background*/
-  --blue:#3871FF; /*si*/
+  --blue:#3871FF; /**/
   /*fonts*/
   --font-primary:  "Montserrat", sans-serif;
 }
@@ -15,7 +15,8 @@
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
-  max-width: 100%;  
+  max-width: 100%;
+  font-family: var(--font-primary);  
 }
 .contenedor {
   background-color: var(--dark-grey);
@@ -23,6 +24,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position-x: right;
+  background-position-y: -20px;
   height: 150vh;
   padding: 2em;
   display: flex;
