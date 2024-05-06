@@ -1,0 +1,17 @@
+.navbar{
+    background-color: transparent !important;
+    width: 80%;
+    justify-content: space-between;
+}
+.navbar-brand{
+    font-weight: 500;
+    color: var(--white);
+}
+.navlink{
+    font-weight: 500;
+    color: var(--light-grey);
+    text-decoration: none;
+}
+.navlink:hover , .navlink:focus{
+    color: var(--white);
+}
