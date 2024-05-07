@@ -14,8 +14,10 @@ function App() {
   return (
     <>
        <Container className="contenedor" fluid>
-        <NavComponent />
-        <Header />
+        <div className="bg-img">
+          <NavComponent />
+          <Header />
+        </div>
         <Our />
         <Tech />
         <Clients />

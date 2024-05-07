@@ -6,7 +6,6 @@ import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 export const Header = () => {
   return (
     <Container className="cnt-cont">
-      
       <div className="header-flex">
         <div>
           <h1 className="header-title">We build beautiful and <br />reliable web solutions</h1>
