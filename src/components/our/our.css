@@ -1,5 +1,4 @@
 .cont-our{
-    height: 160vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,17 +18,17 @@
     font-weight: 600;
     line-height: 1.8;
 }
-.cont-cards{
-    flex-wrap: wrap;
+.row-center{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: center !important;
 }
-
+.flex{
+    display: flex;
+    justify-content: center;
+}
 /*Card*/
 .contenedor-card{
     background-color: aliceblue;
-    width: 30%;
     padding: 40px 25px;
     border-radius: 3px;
     display: flex;
@@ -37,6 +36,10 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    text-align: center;
+}
+.width-card{
+  max-width: 400px;
 }
 .circle-blue{
     width: 50px;
@@ -60,4 +63,10 @@
     font-weight: 600;
     color: var(--light-grey);
     line-height: 1.8;
+}
+
+@media (width < 1200px){
+    .row-center{
+        gap:20px;
+    }
 }

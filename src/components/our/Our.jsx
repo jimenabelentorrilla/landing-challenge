@@ -1,7 +1,7 @@
 import "./our.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLaptopFile, faFileLines, faRulerHorizontal } from "@fortawesome/free-solid-svg-icons";
-import { Container } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 
 const CardOur = ({ icon , title, parag }) => {
   return (
@@ -24,28 +24,42 @@ const CardOur = ({ icon , title, parag }) => {
 export const Our = () => {
   return (
     <Container className="cont-our">
-      <div className="our-text">
-        <h2>Our Services</h2>
-        <p>We feel very strong about our skills when it comes to planning, designing <br />
-          and coding applications. Here is what we love to do! </p>
-      </div>
-      <div className="cont-cards">
-          <CardOur 
+      <Row>
+        <div className="our-text">
+          <h2>Our Services</h2>
+          <p>We feel very strong about our skills when it comes to planning, designing <br />
+            and coding applications. Here is what we love to do! </p>
+        </div>
+      </Row>
+      <Row className="mb-6 row-center"> 
+        <Col sm={12} md={12} lg={12} xl={4} xxl={4} className="flex">
+          <div className="width-card">
+            <CardOur 
             icon={faFileLines}
             title="Business & Product Concept"
             parag="Analyse business and product concepts at Start-up Workshops or Ongoing Projects Audits and prepare a viable and sensible product roadmap for achieving a perfect market fit."
           />
-          <CardOur 
+          </div>
+        </Col>
+        <Col sm={12} md={12} lg={12} xl={4} xxl={4} className="flex">
+          <div className="width-card">
+            <CardOur 
             icon={faLaptopFile}
             title="Web & Mobile Development"
             parag="Plan, develop and test high-quality web-applications using AngularJS, NodeJS, JavaScript, Typescript, HTML5 and SASS/CSS3 frameworks and native mobile languages."
           />
-          <CardOur 
+          </div>
+        </Col>
+        <Col sm={12} md={12} lg={12} xl={4} xxl={4} className="flex">
+          <div className="width-card">
+            <CardOur 
             icon={faRulerHorizontal}
             title="UX & UI Design"
             parag="Sketch information architecture and simple mock-ups, convert them into clickable prototypes and finish with usable interface designs to deliver a good and reliable user experience."
           />
-      </div>
+          </div>
+        </Col>
+      </Row>
     </Container>
   )
 }
