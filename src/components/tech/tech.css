@@ -1,0 +1,39 @@
+.tech-cont{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue);
+    width: 100%;
+    position: relative;
+    bottom: 60px;
+    z-index: 1;
+}
+.mw-tch{
+    display: flex;
+    align-items: center;
+    max-width: 74%;
+}
+
+.tech-text h2{
+    color:var(--white);
+    font-size: 2.2em;
+}
+.tech-text p{
+    color: var(--ultra-light-grey);
+    font-size: 1.3em;
+    line-height: 1.8;
+    width: 75%;
+}
+.center-skill{
+    display: flex;
+    justify-content: center;
+}
+.flex-skill-icon{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3em;
+    width: 50%;
+}

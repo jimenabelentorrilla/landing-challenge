@@ -13,16 +13,17 @@ function App() {
 
   return (
     <>
-       <Container className="contenedor" fluid>
-        <div className="bg-img">
-          <NavComponent />
-          <Header />
-        </div>
-        <Our />
-        <Tech />
-        <Clients />
-        <Cards />
-        <Footer />
+      <Container className="contenedor" fluid>
+       
+          <div className="bg-img">
+            <NavComponent />
+            <Header />
+            <Our />
+            <Tech />
+            <Clients />
+            <Cards />
+            <Footer />
+         </div>
       </Container>
     </>
   )
