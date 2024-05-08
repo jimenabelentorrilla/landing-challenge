@@ -12,7 +12,6 @@
 .mw-tch{
     display: flex;
     align-items: center;
-    max-width: 74%;
 }
 
 .tech-text h2{
@@ -35,5 +34,23 @@
     flex-direction: row;
     justify-content: center;
     gap: 3em;
-    width: 50%;
+    width: 55%;
+}
+@media (width < 1200px){
+    .tech-text{
+        text-align: center;
+    }
+    .tech-text p{
+        width: 100%;
+        font-size: 1em;
+    }
+    .flex-skill-icon{
+        width: 100%;
+    }
+    .mw-tch{
+        gap:40px;
+    }
+    .tech-text h2{
+        font-size: 1.6em;
+    }
 }

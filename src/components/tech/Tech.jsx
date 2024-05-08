@@ -33,6 +33,7 @@ const icons = [
 export const Tech = () => {
   return (
     <Container fluid className="tech-cont">
+      <Container>
       <Row className="mw-tch">
         <Col sm={12} md={12} lg={12} xl={8} xxl={8}>
           <div className="tech-text">
@@ -65,6 +66,7 @@ export const Tech = () => {
           </div>
         </Col>
       </Row>
+      </Container>
     </Container>
   )
 }
