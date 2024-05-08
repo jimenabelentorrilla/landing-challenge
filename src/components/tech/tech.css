@@ -1,5 +1,5 @@
 .tech-cont{
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,11 +16,11 @@
 
 .tech-text h2{
     color:var(--white);
-    font-size: 2.2em;
+    font-size: 2em;
 }
 .tech-text p{
     color: var(--ultra-light-grey);
-    font-size: 1.3em;
+    font-size: 1em;
     line-height: 1.8;
     width: 75%;
 }
@@ -39,10 +39,11 @@
 @media (width < 1200px){
     .tech-text{
         text-align: center;
+        width: 80%;
     }
     .tech-text p{
         width: 100%;
-        font-size: 1em;
+        font-size: 0.8em;
     }
     .flex-skill-icon{
         width: 100%;
@@ -51,6 +52,9 @@
         gap:40px;
     }
     .tech-text h2{
-        font-size: 1.6em;
+        font-size: 1.5em;
+    }
+    .icon-tch{
+        font-size: 3em;
     }
 }

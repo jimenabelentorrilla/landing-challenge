@@ -35,7 +35,7 @@ export const Tech = () => {
     <Container fluid className="tech-cont">
       <Container>
       <Row className="mw-tch">
-        <Col sm={12} md={12} lg={12} xl={8} xxl={8}>
+        <Col sm={12} md={12} lg={12} xl={8} xxl={8} className="d-flex justify-content-center">
           <div className="tech-text">
             <h2>We use cutting edge technology</h2>
             <p>Lorem ipsum dolor sit amet consectetur 
@@ -58,6 +58,7 @@ export const Tech = () => {
                         style={{ color: '#FFFFFF'}}
                         icon={icon.icon}
                         size="4x"
+                        className="icon-tch"
                         />
                     </div>
                   </div>

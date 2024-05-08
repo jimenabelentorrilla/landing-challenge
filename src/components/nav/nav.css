@@ -6,6 +6,10 @@
     font-weight: 500;
     color: var(--white);
 }
+.navbar-brand:hover, .navbar-brand:focus{
+    color: var(--white);
+    cursor: pointer;
+}
 .navlink{
     font-weight: 500;
     color: var(--light-grey);
@@ -13,4 +17,8 @@
 }
 .navlink:hover , .navlink:focus{
     color: var(--white);
+}
+.wh-hire{
+    color:var(--white);
+    font-weight: 500;
 }
