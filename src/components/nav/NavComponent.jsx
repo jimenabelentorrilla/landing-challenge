@@ -11,7 +11,7 @@ export const NavComponent = () => {
     <>
         <Navbar bsPrefix="navbar" expand="lg" className="mb-3">
           <Container>
-            <Navbar.Brand bsPrefix="navbar-brand">compleet labs</Navbar.Brand>
+            <Navbar.Brand bsPrefix="navbar-brand" href="#home">compleet labs</Navbar.Brand>
             <Navbar.Toggle aria-controls="offcanvasNavbar-expand-lg" />
             <Navbar.Offcanvas
               id="offcanvasNavbar-expand-lg"

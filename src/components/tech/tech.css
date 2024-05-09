@@ -37,6 +37,9 @@
     width: 55%;
 }
 @media (width < 1200px){
+    .tech-cont{
+        height: 130vh;
+    }
     .tech-text{
         text-align: center;
         width: 80%;

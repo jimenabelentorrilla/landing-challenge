@@ -10,11 +10,9 @@ import { Footer } from "./components/footer/Footer";
 import Container from 'react-bootstrap/Container';
 
 function App() {
-
   return (
     <>
       <Container className="contenedor" fluid>
-       
           <div className="bg-img">
             <NavComponent />
             <Header />
@@ -23,7 +21,7 @@ function App() {
             <Clients />
             <Cards />
             <Footer />
-         </div>
+          </div>
       </Container>
     </>
   )

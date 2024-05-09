@@ -38,12 +38,12 @@ export const Tech = () => {
         <Col sm={12} md={12} lg={12} xl={8} xxl={8} className="d-flex justify-content-center">
           <div className="tech-text">
             <h2>We use cutting edge technology</h2>
-            <p>Lorem ipsum dolor sit amet consectetur 
-              adipisicing elit. Quae omnis itaque eaque obcaecati,
-              unde, vero dolor nemo volitaque eaque uptates cumque,
-              quisquamitaque eaque itaque eaeaque itaque eaeaque itaque 
-              eaeaque itaque eaeaque ique itaque eaque  dignissimos 
-              nesciunt ullam? Id debitis autem quibusdam ipsam animi expedita!</p>
+            <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean
+            lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus
+            et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae
+            elit libero, a pharetra augue. Vestibulum id ligula porta felis
+            euismod semper. Vivamus sagittis lacus vel augue laoreet rutrum
+            faucibus dolor auctor.</p>
           </div>
         </Col>
         <Col sm={12} md={12} lg={12} xl={4} xxl={4} className="center-skill">
