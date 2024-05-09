@@ -1,6 +1,8 @@
 .tarjeta{
     background-color: var(--blue);
     height: 45vh;
+    position: relative;
+    bottom: 130px;
 }
 .card-flex{
     display: flex;

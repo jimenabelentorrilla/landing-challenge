@@ -20,10 +20,9 @@ const CardOur = ({ icon , title, parag }) => {
   )
 }
 
-
 export const Our = () => {
   return (
-    <Container className="cont-our">
+    <Container className="cont-our" id="services">
       <Row>
         <div className="our-text">
           <h2>Our Services</h2>

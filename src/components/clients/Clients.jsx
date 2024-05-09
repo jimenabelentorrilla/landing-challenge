@@ -1,4 +1,4 @@
-import { Container, Row } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import "./clients.css";
 import Tnw from "../../assets/tnw.svg";
 import Google from "../../assets/google.png";
@@ -29,26 +29,26 @@ const brands = [
   }
 ]
 
-
 export const Clients = () => {
   return (
     <Container fluid className="clients-cnt">
       <Row>
-        <div>
-        <h5 className="d-flex justify-content-center client-title">clients we worked with</h5>
-      </div>
-      <div className="brands">
-        {
-          brands.map(brand => {
-            return (
-              <div key={brand.id} className="cnt-brand">
-                <img className="brand" src={brand.name} />
-              </div>
-            )})
-        } 
-      </div>
+        <Col>
+          <div>
+            <h5 className="d-flex justify-content-center client-title">clients we worked with</h5>
+          </div>
+          <div className="brands">
+            {
+              brands.map(brand => {
+                return (
+                  <div key={brand.id} className="cnt-brand">
+                    <img className="brand" src={brand.name} />
+                  </div>
+                )})
+            } 
+          </div>
+        </Col>      
       </Row>
-      
     </Container>
   )
 }

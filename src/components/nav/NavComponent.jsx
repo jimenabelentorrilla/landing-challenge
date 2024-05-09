@@ -9,8 +9,8 @@ import Icon from "../../assets/postcard.png";
 export const NavComponent = () => {
   return (
     <>
-        <Navbar bsPrefix="navbar" expand="lg" className="mb-3">
-          <Container>
+        <Navbar bsPrefix="navbar" expand="lg" className="mb-3" id="home">
+          <Container >
             <Navbar.Brand bsPrefix="navbar-brand" href="#home">compleet labs</Navbar.Brand>
             <Navbar.Toggle aria-controls="offcanvasNavbar-expand-lg" />
             <Navbar.Offcanvas
