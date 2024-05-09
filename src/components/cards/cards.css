@@ -1,0 +1,21 @@
+.tarjeta{
+    background-color: var(--blue);
+    height: 45vh;
+}
+.card-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    border-radius: 3px;
+    padding: 2em;
+    color: var(--white);
+}
+.card-flex h4{
+    font-size: 1.5em;
+    margin: 0;
+}
+.card-flex p{
+    font-size: 0.8em;
+    line-height: 1.8;
+}

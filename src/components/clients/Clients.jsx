@@ -1,4 +1,4 @@
-import { Container } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import "./clients.css";
 import Tnw from "../../assets/tnw.svg";
 import Google from "../../assets/google.png";
@@ -33,7 +33,8 @@ const brands = [
 export const Clients = () => {
   return (
     <Container fluid className="clients-cnt">
-      <div>
+      <Row>
+        <div>
         <h5 className="d-flex justify-content-center client-title">clients we worked with</h5>
       </div>
       <div className="brands">
@@ -46,6 +47,8 @@ export const Clients = () => {
             )})
         } 
       </div>
+      </Row>
+      
     </Container>
   )
 }

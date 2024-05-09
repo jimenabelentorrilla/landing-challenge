@@ -16,13 +16,14 @@
 
 .tech-text h2{
     color:var(--white);
-    font-size: 2em;
+    font-size: 1.6em;
+    margin-bottom: 1em;
 }
 .tech-text p{
     color: var(--ultra-light-grey);
-    font-size: 1em;
+    font-size: 0.9em;
     line-height: 1.8;
-    width: 75%;
+    width: 62%;
 }
 .center-skill{
     display: flex;
@@ -33,7 +34,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    gap: 3em;
+    gap: 2.5em;
     width: 55%;
 }
 @media (width < 1200px){

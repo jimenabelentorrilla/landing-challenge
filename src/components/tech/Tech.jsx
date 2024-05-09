@@ -59,7 +59,7 @@ export const Tech = () => {
                         icon={icon.icon}
                         size="4x"
                         className="icon-tch"
-                        />
+                      />
                     </div>
                   </div>
                 )})
