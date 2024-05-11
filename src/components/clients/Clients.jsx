@@ -33,7 +33,6 @@ export const Clients = () => {
   return (
     <Container fluid className="clients-cnt">
       <Row>
-        <Col>
           <div>
             <h5 className="d-flex justify-content-center client-title">clients we worked with</h5>
           </div>
@@ -46,8 +45,7 @@ export const Clients = () => {
                   </div>
                 )})
             } 
-          </div>
-        </Col>      
+          </div>      
       </Row>
     </Container>
   )
