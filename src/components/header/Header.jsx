@@ -1,12 +1,22 @@
+import { useEffect } from "react";
 import { Container } from "react-bootstrap";
 import "./header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 
 export const Header = () => {
+   /**** Inicializar AOS - animaciones*** */
+   
+    useEffect(() => {
+        Aos.init()
+      }, [])
+
   return (
     <Container className="cnt-cont">
-      <div className="header-flex">
+      <div className="header-flex" data-aos="fade-right" data-aos-duration="1500"   data-aos-delay="300">
         <div>
           <h1 className="header-title">We build beautiful and <br />reliable web solutions</h1>
           <p className="header-parag">We strongly believe that communication, trust and transparency <br />

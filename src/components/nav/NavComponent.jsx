@@ -1,16 +1,23 @@
+import { useEffect } from "react";
 import { Container } from "react-bootstrap";
-import "./nav.css";
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Icon from "../../assets/postcard.png";
-
+import Aos from "aos";
+import "aos/dist/aos.css";
+import "./nav.css";
 
 export const NavComponent = () => {
+
+  useEffect(() => {
+    Aos.init()
+  }, [])
+
   return (
     <>
         <Navbar bsPrefix="navbar" expand="lg" className="mb-3" id="home">
-          <Container >
+          <Container data-aos="fade-down" data-aos-duration="2000">
             <Navbar.Brand bsPrefix="navbar-brand" href="#home">compleet labs</Navbar.Brand>
             <Navbar.Toggle aria-controls="offcanvasNavbar-expand-lg" />
             <Navbar.Offcanvas

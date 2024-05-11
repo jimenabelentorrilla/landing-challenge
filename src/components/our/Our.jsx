@@ -1,7 +1,10 @@
 import "./our.css";
+import { useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLaptopFile, faFileLines, faRulerHorizontal } from "@fortawesome/free-solid-svg-icons";
 import { Col, Container, Row } from "react-bootstrap";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const CardOur = ({ icon , title, parag }) => {
   return (
@@ -21,8 +24,12 @@ const CardOur = ({ icon , title, parag }) => {
 }
 
 export const Our = () => {
+  useEffect(() => {
+    Aos.init()
+  }, [])
+
   return (
-    <Container className="cont-our" id="services">
+    <Container className="cont-our" id="services" data-aos="fade-down" data-aos-duration="2000">
       <Row>
         <div className="our-text">
           <h2>Our Services</h2>
