@@ -1,8 +1,12 @@
 .tarjeta{
     background-color: var(--blue);
-    height: 45vh;
+    height: 40vh;
+    width: 90%;
+}
+.posit{
     position: relative;
-    bottom: 130px;
+    bottom: 170px;
+    gap: 2em;
 }
 .card-flex{
     display: flex;
@@ -10,14 +14,90 @@
     justify-content: space-around;
     align-items: start;
     border-radius: 3px;
-    padding: 2em;
     color: var(--white);
+    padding: 2em 0em 2em 2em;
 }
 .card-flex h4{
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin: 0;
+    line-height: 1.8;
 }
 .card-flex p{
-    font-size: 0.8em;
+    font-size: 0.7em;
     line-height: 1.8;
+}
+.col-rg , .col-lf{
+    justify-content: center;
+    display: flex;
+}
+.cnt-ph {
+    position: relative; 
+    width: 50%; 
+    height: 100%; 
+}
+  
+.cnt-ph img {
+   position: absolute; 
+   bottom: 0; 
+   right: 0; 
+   max-width: 100%; 
+   max-height: 95%; 
+}
+.card-btn{
+    font-size: 0.7em;
+    border: 1px white solid;
+    background-color: transparent;
+    color: white;
+    padding: 0.8em 2em;
+    border-radius: 0.3em;
+}
+.card-btn:hover{
+    transition: .2s ease-in;
+    background-color: var(--light-grey);
+    border: var(--light-grey) solid 1px;
+}
+
+@media (width < 576px) {
+    .tarjeta{
+        width: 100%;
+    }
+    .card-flex h4{
+        font-size: 1em;
+    }
+    .card-flex p{
+        font-size: 0.6em
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.99px){
+    .tarjeta{
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.99px){
+    .tarjeta{
+        width: 75%;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width:1199.99px){
+    .tarjeta{
+        width: 55%;
+    }
+}
+@media (width > 1200px){
+    .col-rg{
+        justify-content: end;
+        display: flex;
+    }
+    .col-lf{
+        justify-content: start;
+        display: flex;
+    }
+    .posit{
+        gap: 0em;
+    }
 }

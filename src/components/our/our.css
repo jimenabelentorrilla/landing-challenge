@@ -72,4 +72,7 @@
     .row-center{
         gap:20px;
     }
+    .our-text p {
+        font-size: 0.7em;
+    }
 }

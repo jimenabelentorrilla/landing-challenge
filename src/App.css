@@ -16,11 +16,34 @@
   padding: 0;
   box-sizing: border-box;
   max-width: 100%;
-  font-family: var(--font-primary);  
+  font-family: var(--font-primary);
+  font-size: 16px;  
 }
 .contenedor {
   background-color: var(--dark-grey);
   padding: 2em;
   position: absolute;
+  background-image: url(./src/assets/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 48vw;
+  background-position-y: top;
+  background-position-x: right;
 }
 
+@media (width < 576px) {
+  .contenedor{
+    background-size: 60vw;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.99px){
+  .contenedor{
+    background-size: 55vw;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.99px){
+  .contenedor{
+    background-size: 50vw;
+  }
+}

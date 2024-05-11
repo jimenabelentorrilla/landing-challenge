@@ -9,11 +9,11 @@ const CardBlue = ({ title, btn, img }) => {
         <h4>{title}</h4>
         <p>Maecenas sed diam eget risus varius <br /> blandit sit amet non magna.</p>
         <div>
-          <button bsPrefix="btn-crd" className="btn btn-outline-secondary btn-lg">{btn}</button>
+          <button className="card-btn">{btn}</button>
         </div>
       </div>
-      <div>
-        <img src={img}/>
+      <div className="cnt-ph">
+        <img src={img} className="img-fluid"/>
       </div>
     </div>
   )
@@ -22,14 +22,14 @@ const CardBlue = ({ title, btn, img }) => {
 export const Cards = () => {
   return (
     <Container>
-      <Row>
-        <Col>
+      <Row className="posit">
+        <Col sm={12} md={12} lg={12} xl={6} xxl={6} className="col-rg">
           <CardBlue
             title="Get in touch with us"
             btn="Hire us"
           />
         </Col>
-        <Col>
+        <Col sm={12} md={12} lg={12} xl={6} xxl={6} className="col-lf">
           <CardBlue
             title="Our Projects"
             btn="See Projects"
