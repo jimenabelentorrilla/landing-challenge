@@ -4,18 +4,20 @@ import Phone from "../../assets/phone-proj.png";
 
 const CardBlue = ({ title, btn, img }) => {
   return (
-    <div className="d-flex align-content-center justify-content-space-between tarjeta">
-      <div className="card-flex">
-        <h4>{title}</h4>
-        <p>Maecenas sed diam eget risus varius <br /> blandit sit amet non magna.</p>
-        <div>
-          <button className="card-btn">{btn}</button>
+    <>
+      <div className="d-flex align-content-center justify-content-space-between tarjeta">
+        <div className="card-flex">
+          <h4>{title}</h4>
+          <p>Maecenas sed diam eget risus varius <br /> blandit sit amet non magna.</p>
+          <div>
+            <button className="card-btn">{btn}</button>
+          </div>
+        </div>
+        <div className="cnt-ph">
+          <img src={img} className="img-fluid"/>
         </div>
       </div>
-      <div className="cnt-ph">
-        <img src={img} className="img-fluid"/>
-      </div>
-    </div>
+    </>
   )
 }
 

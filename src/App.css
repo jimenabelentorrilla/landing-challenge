@@ -15,35 +15,37 @@
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
-  max-width: 100%;
-  font-family: var(--font-primary);
-  font-size: 16px;  
+  font-family: var(--font-primary); 
 }
-.contenedor {
+
+.contenedor-app {
   background-color: var(--dark-grey);
   padding: 2em;
   position: absolute;
-  background-image: url(./src/assets/bg.jpg);
+  background-image: url("./src/assets/bg.jpg");
   background-repeat: no-repeat;
   background-size: 48vw;
   background-position-y: top;
   background-position-x: right;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 @media (width < 576px) {
-  .contenedor{
+  .contenedor-app{
     background-size: 60vw;
   }
 }
 
 @media (min-width: 576px) and (max-width: 767.99px){
-  .contenedor{
+  .contenedor-app{
     background-size: 55vw;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991.99px){
-  .contenedor{
+  .contenedor-app{
     background-size: 50vw;
   }
 }
+

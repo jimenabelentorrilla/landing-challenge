@@ -1,6 +1,5 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Container from 'react-bootstrap/Container';
 import { NavComponent } from "./components/nav/NavComponent";
 import { Header } from "./components/header/Header";
 import { Our } from "./components/our/Our";
@@ -12,7 +11,7 @@ import { Footer } from "./components/footer/Footer";
 function App() {
   return (
     <>
-      <Container className="contenedor" fluid>
+      <div className="contenedor-app" >
         <NavComponent />
         <Header />
         <Our />
@@ -20,7 +19,7 @@ function App() {
         <Clients />
         <Cards />
         <Footer />
-      </Container>
+      </div>
     </>
   )
 }
