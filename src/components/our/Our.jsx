@@ -10,14 +10,14 @@ const CardOur = ({ icon , title, parag }) => {
   return (
     <div className="contenedor-card">
       <div className="circle-blue">
-        <FontAwesomeIcon icon={icon} size="lg" style={{color: "#FFFFFF",}}/>
+        <FontAwesomeIcon icon={icon} className="icon-card" style={{color: "#FFFFFF",}}/>
       </div>
       <div className="card-text">
         <h4>{title}</h4>
         <p>{parag}</p>
       </div>
       <div>
-        <button className="btn btn-outline-secondary btn-lg">Learn more</button>
+        <button className="btn btn-outline-secondary btn-lg cta-card">Learn more</button>
       </div>
     </div>
   )

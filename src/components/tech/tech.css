@@ -1,29 +1,31 @@
 .tech-cont{
-    height: 90vh;
+    min-height: 440px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--blue);
     width: 100%;
     position: relative;
-    bottom: 60px;
     z-index: 1;
+    padding: 2em 1em;
 }
 .mw-tch{
     display: flex;
     align-items: center;
+    gap: 20px;
+    padding-top: 30px;
 }
 
 .tech-text h2{
-    color:var(--white);
+    color: var(--white);
     font-size: 1.6em;
     margin-bottom: 1em;
+    text-align: center;
 }
 .tech-text p{
-    color: var(--ultra-light-grey);
+    color: #9BB8FF;
     font-size: 0.9em;
     line-height: 1.8;
-    width: 62%;
 }
 .center-skill{
     display: flex;
@@ -35,30 +37,95 @@
     flex-direction: row;
     justify-content: center;
     gap: 2.5em;
-    width: 55%;
+    width: 100%;
+    
 }
-@media (width < 1200px){
+@media (width < 576px) {
     .tech-cont{
-        height: 130vh;
-    }
-    .tech-text{
-        text-align: center;
-        width: 80%;
-    }
-    .tech-text p{
-        width: 100%;
-        font-size: 0.8em;
-    }
-    .flex-skill-icon{
-        width: 100%;
-    }
-    .mw-tch{
-        gap:40px;
+        bottom: 40px;
     }
     .tech-text h2{
+        font-size: 1.40em;
+    }
+    .tech-text p{
+        font-size: 0.7em;
+        width: 100%;
+    }
+    .icon-tch{
         font-size: 1.5em;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.99px){
+    .tech-cont{
+        bottom: 45px;
+    }
+    .tech-text h2{
+        font-size: 1.45em;
+    }
+    .tech-text p{
+        font-size: 0.75em;
+        width: 100%;
+    }
+    .icon-tch{
+        font-size: 1.5em;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.99px){
+    .tech-cont{
+        bottom: 40px;
+    }
+    .tech-text h2{
+        font-size: 1.50em;
+    }
+    .tech-text p{
+        font-size: 0.80em;
+        width: 100%;
+    }
+    .icon-tch{
+        font-size: 2em;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width:1199.99px){
+    .tech-cont{
+        bottom: 160px;
+    }
+    .tech-text h2{
+        font-size: 1.55em;
+    }
+    .tech-text p{
+        font-size: 0.85em;
+        width: 100%;
+    }
+    .icon-tch{
+        font-size: 2.5em;
+    }
+}
+@media (width > 1200px){
+    .tech-cont{
+        bottom: 180px;
+    }
+    .tech-text h2{
+        font-size: 1.6em;
+        text-align: start;
+    }
+    .tech-text p{
+        font-size: 0.9em;
+        width: 62%;
     }
     .icon-tch{
         font-size: 3em;
     }
+    .mw-tch{
+        gap:0;
+    }
+    .flex-skill-icon{
+        width: 55%;
+    }
 }
+
+

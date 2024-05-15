@@ -64,7 +64,6 @@ export const Tech = () => {
                         <FontAwesomeIcon
                           style={{ color: '#FFFFFF'}}
                           icon={icon.icon}
-                          size="4x"
                           className="icon-tch"
                         />
                     </div>
