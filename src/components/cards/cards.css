@@ -1,8 +1,11 @@
 .tarjeta{
     background-color: var(--blue);
-    height: 220px;
+    min-height: 220px;
     width: 100%;
     border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
 }
 .posit{
     position: relative;
@@ -19,7 +22,6 @@
     padding: 2em 0em 2em 2em;
 }
 .card-flex h4{
-    font-size: 1.2em;
     margin: 0;
     line-height: 1.8;
 }
@@ -33,7 +35,7 @@
 }
 .cnt-ph {
     position: relative; 
-    width: 50%; 
+    width: 40%; 
     height: 100%; 
 }
   
@@ -60,22 +62,31 @@
 
 @media (width < 576px) {
     .card-flex h4{
-        font-size: 1em;
-    }
-    .card-flex p{
-        font-size: 0.6em
+        font-size: 1.2em;
     }
 }
 
 @media (min-width: 576px) and (max-width: 767.99px){
+    .card-flex h4{
+        font-size: 1.3em;
+    }
 }
 
 
 @media (min-width: 768px) and (max-width: 991.99px){
+    .card-flex h4{
+        font-size: 1.4em;
+    }
 }
 
 
 @media (min-width: 992px) and (max-width:1199.99px){
+    .card-flex h4{
+        font-size: 1.5em;
+    }
+    .card-flex p{
+        font-size: 0.8em
+    }
     
 }
 @media (width > 1200px){
@@ -90,5 +101,11 @@
     .posit{
         gap:0;
         width: 1140px;
+    }
+    .card-flex h4{
+        font-size: 1.5em;
+    }
+    .card-flex p{
+        font-size: 0.8em
     }
 }
