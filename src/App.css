@@ -22,7 +22,7 @@
   background-color: var(--dark-grey);
   padding: 2em 0em;
   position: absolute;
-  background-image: url("./src/assets/bg.jpg");
+  background-image: url("./assets/bg.jpg");
   background-repeat: no-repeat;
   background-size: 48vw;
   background-position-y: top;
