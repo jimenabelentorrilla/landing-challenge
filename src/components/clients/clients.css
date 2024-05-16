@@ -12,6 +12,7 @@
 .pad-cli{
     padding-top: 100px;
     max-width: 1140px;
+    gap: 15px;
 }
 .client-title{
     text-transform: uppercase;
@@ -35,6 +36,10 @@
 .brand{
     max-width: 80%;
     height: auto;
+    transition: transform .2s;
+}
+.brand:hover{
+    transform: scale(1.5);
 }
 
 @media (width < 576px) {

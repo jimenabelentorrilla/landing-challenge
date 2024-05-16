@@ -8,8 +8,7 @@ import "aos/dist/aos.css";
 
 
 export const Header = () => {
-   /**** Inicializar AOS - animaciones*** */
-   
+     
     useEffect(() => {
         Aos.init()
       }, [])

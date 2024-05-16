@@ -24,28 +24,10 @@
   position: absolute;
   background-image: url("./assets/bg.jpg");
   background-repeat: no-repeat;
-  background-size: 48vw;
+  background-size: 100vh;
   background-position-y: top;
   background-position-x: right;
   width: 100%;
   overflow-x: hidden;
-}
-
-@media (width < 576px) {
-  .contenedor-app{
-    background-size: 60vw;
-  }
-}
-
-@media (min-width: 576px) and (max-width: 767.99px){
-  .contenedor-app{
-    background-size: 55vw;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991.99px){
-  .contenedor-app{
-    background-size: 50vw;
-  }
 }
 
