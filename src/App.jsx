@@ -5,7 +5,6 @@ import { Header } from "./components/header/Header";
 import { Our } from "./components/our/Our";
 import { Tech } from "./components/tech/Tech";
 import { Clients } from "./components/clients/Clients";
-import { Cards } from "./components/cards/Cards";
 import { Footer } from "./components/footer/Footer";
 
 function App() {
@@ -17,7 +16,6 @@ function App() {
         <Our />
         <Tech />
         <Clients />
-        <Cards />
         <Footer />
       </div>
     </>

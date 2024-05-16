@@ -1,4 +1,4 @@
-import { Col, Container, Row } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 import "./cards.css";
 import Phone from "../../assets/phone-proj.png";
 
@@ -23,8 +23,8 @@ const CardBlue = ({ title, btn, img }) => {
 
 export const Cards = () => {
   return (
-    <Container>
-      <Row className="posit">
+    
+      <>
         <Col sm={12} md={12} lg={12} xl={6} xxl={6} className="col-rg">
           <CardBlue
             title="Get in touch with us"
@@ -38,7 +38,6 @@ export const Cards = () => {
             img={Phone}
           />
         </Col>
-      </Row>
-    </Container>
+      </>
   )
 }

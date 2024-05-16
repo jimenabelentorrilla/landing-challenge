@@ -1,10 +1,11 @@
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row} from "react-bootstrap";
 import "./clients.css";
 import Tnw from "../../assets/tnw.svg";
 import Google from "../../assets/google.png";
 import Nike from "../../assets/nike.png";
 import Airbnb from "../../assets/airbnb.png";
 import Hsbc from "../../assets/hsbc.svg";
+import { Cards } from "../cards/Cards";
 
 const brands = [
   {
@@ -32,7 +33,7 @@ const brands = [
 export const Clients = () => {
   return (
     <Container fluid className="clients-cnt">
-      <Row>
+      <Row className="pad-cli">
           <div>
             <h5 className="d-flex justify-content-center client-title">clients we worked with</h5>
           </div>
@@ -46,6 +47,9 @@ export const Clients = () => {
                 )})
             } 
           </div>      
+      </Row>
+      <Row className="posit">
+        <Cards />
       </Row>
     </Container>
   )

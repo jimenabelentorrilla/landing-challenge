@@ -20,7 +20,7 @@
 
 .contenedor-app {
   background-color: var(--dark-grey);
-  padding: 2em;
+  padding: 2em 0em;
   position: absolute;
   background-image: url("./src/assets/bg.jpg");
   background-repeat: no-repeat;

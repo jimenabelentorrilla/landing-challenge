@@ -13,7 +13,7 @@
     display: flex;
     align-items: center;
     gap: 20px;
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 .tech-text h2{
@@ -52,7 +52,7 @@
         width: 100%;
     }
     .icon-tch{
-        font-size: 1.5em;
+        font-size: 1.7em;
     }
 }
 
@@ -68,7 +68,7 @@
         width: 100%;
     }
     .icon-tch{
-        font-size: 1.5em;
+        font-size: 1.9em;
     }
 }
 
@@ -92,7 +92,7 @@
 
 @media (min-width: 992px) and (max-width:1199.99px){
     .tech-cont{
-        bottom: 160px;
+        bottom: 60px;
     }
     .tech-text h2{
         font-size: 1.55em;
@@ -107,7 +107,7 @@
 }
 @media (width > 1200px){
     .tech-cont{
-        bottom: 180px;
+        bottom: 50px;
     }
     .tech-text h2{
         font-size: 1.6em;

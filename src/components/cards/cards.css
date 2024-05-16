@@ -1,11 +1,12 @@
 .tarjeta{
     background-color: var(--blue);
-    height: 40vh;
-    width: 90%;
+    height: 220px;
+    width: 100%;
+    border-radius: 5px;
 }
 .posit{
     position: relative;
-    bottom: 170px;
+    top: 65px;
     gap: 2em;
 }
 .card-flex{
@@ -58,9 +59,6 @@
 }
 
 @media (width < 576px) {
-    .tarjeta{
-        width: 100%;
-    }
     .card-flex h4{
         font-size: 1em;
     }
@@ -70,34 +68,27 @@
 }
 
 @media (min-width: 576px) and (max-width: 767.99px){
-    .tarjeta{
-        width: 100%;
-    }
 }
 
 
 @media (min-width: 768px) and (max-width: 991.99px){
-    .tarjeta{
-        width: 75%;
-    }
 }
 
 
 @media (min-width: 992px) and (max-width:1199.99px){
-    .tarjeta{
-        width: 55%;
-    }
+    
 }
 @media (width > 1200px){
     .col-rg{
-        justify-content: end;
-        display: flex;
-    }
-    .col-lf{
         justify-content: start;
         display: flex;
     }
+    .col-lf{
+        justify-content: end;
+        display: flex;
+    }
     .posit{
-        gap: 0em;
+        gap:0;
+        width: 1140px;
     }
 }

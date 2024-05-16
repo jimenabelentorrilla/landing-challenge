@@ -1,5 +1,12 @@
 .cnt-footer{
     background-color: var(--dark-grey);
+    min-height: 200px;
+    padding-top: 40px;
+}
+.row-footer{
+    display: flex;
+    min-height: 220px;
+    align-items: end;
 }
 .cnt-text-foo{
     line-height: 1.8;
@@ -41,13 +48,13 @@
     flex-direction: column;
     gap: 8px;
     font-size: .8em;
+    list-style-type: none;
 }
 .links{
     text-transform: capitalize;
     font-weight: 500;
     color: var(--light-grey);
     text-decoration: none;
-    list-style-type: none;
 }
 .bold-foo{
     color: var(--white);
