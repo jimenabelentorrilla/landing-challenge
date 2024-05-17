@@ -25,7 +25,7 @@ export const NavComponent = () => {
   return (
     <>
       <Navbar bsPrefix="navbar" expand="lg" className="mb-3" id="home">
-          <Container data-aos="fade-down" data-aos-duration="2000">
+          <Container bsPrefix="container" data-aos="fade-down" data-aos-duration="2000">
             <Navbar.Brand bsPrefix="navbar-brand" href="#home">compleet labs</Navbar.Brand>
                 <Nav>
                   <div className="menu">
@@ -43,7 +43,6 @@ export const NavComponent = () => {
                 </Nav>
             </Container>
         </Navbar>
-
         <Offcanvas show={show} onClick={handleClose}>
           <Offcanvas.Header closeButton><Offcanvas.Title></Offcanvas.Title></Offcanvas.Header>
           <Offcanvas.Body>
@@ -55,7 +54,6 @@ export const NavComponent = () => {
                       <a  href="#"><li>About</li></a>
                       <a className="hire-cta" href="#"><li>Hire us!</li></a>
                   </ul>
-
               </div>
           </Offcanvas.Body>
         </Offcanvas>
