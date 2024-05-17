@@ -99,7 +99,7 @@ const FooterLink = ({ href, name, tb }) => {
 
 export const Footer = () => {
   return (
-    <Container className="cnt-footer">
+    <Container  className="cnt-footer">
       <Row className="row-footer">
         <Col sm={12} md={12} lg={6} xl={6} xxl={6} className="d-flex justify-content-start align-items-start">
           <div className="box-text">

@@ -83,6 +83,11 @@
     .btn{
         font-size: 0.8em;
     }
+    .container{
+        margin-right: 200px;
+        margin-left: 200px;
+        max-width: 1014px;
+    }
 }
 
 
