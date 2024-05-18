@@ -40,7 +40,7 @@ export const Our = () => {
         </div>
       </Row>
       <Row className="mb-6 row-center"> 
-        <Col sm={12} md={12} lg={4} xl={4} xxl={4} className="flex" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="300">
+        <Col sm={12} md={12} lg={4} xl={4} xxl={4} className="flex" data-aos="zoom-in-down" data-aos-duration="1200" data-aos-delay="300">
           <div className="width-card">
             <CardOur 
             icon={faFileLines}
@@ -49,7 +49,7 @@ export const Our = () => {
           />
           </div>
         </Col>
-        <Col sm={12} md={12} lg={4} xl={4} xxl={4} className="flex" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="500">
+        <Col sm={12} md={12} lg={4} xl={4} xxl={4} className="flex" data-aos="zoom-in-down" data-aos-duration="1200" data-aos-delay="500">
           <div className="width-card">
             <CardOur 
             icon={faLaptopFile}
@@ -58,7 +58,7 @@ export const Our = () => {
           />
           </div>
         </Col>
-        <Col sm={12} md={12} lg={4} xl={4} xxl={4} className="flex" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="700">
+        <Col sm={12} md={12} lg={4} xl={4} xxl={4} className="flex" data-aos="zoom-in-down" data-aos-duration="1200" data-aos-delay="700">
           <div className="width-card">
             <CardOur 
             icon={faRulerHorizontal}
