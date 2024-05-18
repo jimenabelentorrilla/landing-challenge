@@ -1,16 +1,12 @@
 import "./nav.css";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Container } from "react-bootstrap";
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Icon from "../../assets/postcard.png";
-import Aos from "aos";
-import "aos/dist/aos.css";
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-
 
 export const NavComponent = () => {
 
@@ -19,14 +15,10 @@ export const NavComponent = () => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-  useEffect(() => {
-    Aos.init()
-  }, [])
-
   return (
     <>
       <Navbar bsPrefix="navbar" expand="lg" className="mb-3" id="home">
-          <Container bsPrefix="container" data-aos="fade-down" data-aos-duration="2000">
+          <Container bsPrefix="container">
             <Navbar.Brand bsPrefix="navbar-brand" href="#home">compleet labs</Navbar.Brand>
                 <Nav>
                   <div className="menu">

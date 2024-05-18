@@ -10,23 +10,28 @@ import { Cards } from "../cards/Cards";
 const brands = [
   {
       "id": "1",
-      "name": Tnw
+      "name": Tnw,
+      "link": "https://thenextweb.com/"
   },
   {
       "id": "2",
-      "name": Google 
+      "name": Google,
+      "link": "https://www.google.com/?hl=es" 
   },
   {
       "id": "3",
-      "name": Nike    
+      "name": Nike,
+      "link": "https://www.nike.com.ar/"    
   },
   {
       "id": "4",
-      "name": Airbnb
+      "name": Airbnb,
+      "link": "https://www.airbnb.com.ar/"
   },
   {
       "id": "5",
-      "name": Hsbc
+      "name": Hsbc,
+      "link": "https://www.hsbc.com.ar/"
   }
 ]
 
@@ -42,9 +47,9 @@ export const Clients = () => {
               {
                 brands.map(brand => {
                   return (
-                    <div key={brand.id} className="cnt-brand">
+                    <a href={brand.link} target="_blank" key={brand.id} className="cnt-brand">
                       <img className="brand" src={brand.name} />
-                    </div>
+                    </a>
                   )})
               } 
             </div>      

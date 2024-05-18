@@ -1,9 +1,10 @@
 import "./our.css";
-import React from 'react';
-
+import React, { useEffect } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLaptopFile, faFileLines, faRulerHorizontal } from "@fortawesome/free-solid-svg-icons";
 import { Col, Container, Row } from "react-bootstrap";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 
 const CardOur = ({ icon , title, parag }) => {
@@ -25,6 +26,10 @@ const CardOur = ({ icon , title, parag }) => {
 
 export const Our = () => {
 
+  useEffect(() => {
+    Aos.init()
+  }, []) 
+
   return (
     <Container className="cont-our" id="services">
       <Row>
@@ -35,7 +40,7 @@ export const Our = () => {
         </div>
       </Row>
       <Row className="mb-6 row-center"> 
-        <Col sm={12} md={12} lg={4} xl={4} xxl={4} className="flex">
+        <Col sm={12} md={12} lg={4} xl={4} xxl={4} className="flex" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="300">
           <div className="width-card">
             <CardOur 
             icon={faFileLines}
@@ -44,7 +49,7 @@ export const Our = () => {
           />
           </div>
         </Col>
-        <Col sm={12} md={12} lg={4} xl={4} xxl={4} className="flex">
+        <Col sm={12} md={12} lg={4} xl={4} xxl={4} className="flex" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="500">
           <div className="width-card">
             <CardOur 
             icon={faLaptopFile}
@@ -53,7 +58,7 @@ export const Our = () => {
           />
           </div>
         </Col>
-        <Col sm={12} md={12} lg={4} xl={4} xxl={4} className="flex">
+        <Col sm={12} md={12} lg={4} xl={4} xxl={4} className="flex" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="700">
           <div className="width-card">
             <CardOur 
             icon={faRulerHorizontal}

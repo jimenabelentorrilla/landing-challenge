@@ -49,7 +49,6 @@
     align-items: flex-start;
     text-align: justify;
     gap: 8px;
-    font-size: 0.8em;
     list-style-type: none;
 }
 .links{
@@ -57,6 +56,8 @@
     font-weight: 500;
     color: var(--light-grey);
     text-decoration: none;
+}
+.links li{
     font-size: 0.75em;
 }
 .bold-foo{

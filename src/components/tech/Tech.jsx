@@ -44,7 +44,7 @@ export const Tech = () => {
     <Container fluid className="tech-cont" id="tech">
       <Container bsPrefix="container">
         <Row className="mw-tch">
-          <Col sm={12} md={12} lg={12} xl={8} xxl={8} className="d-flex justify-content-center" data-aos="fade-right" data-aos-duration="2000">
+          <Col sm={12} md={12} lg={12} xl={8} xxl={8} className="d-flex justify-content-center" data-aos="fade-right" data-aos-duration="1200">
             <div className="tech-text">
               <h2>We use cutting edge technology</h2>
               <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean
@@ -55,7 +55,7 @@ export const Tech = () => {
               faucibus dolor auctor.</p>
             </div>
           </Col>
-          <Col sm={12} md={12} lg={12} xl={4} xxl={4} className="center-skill" data-aos="fade-left" data-aos-duration="2000">
+          <Col sm={12} md={12} lg={12} xl={4} xxl={4} className="center-skill" data-aos="fade-left" data-aos-duration="1200">
             <div className="flex-skill-icon">
               {
                 icons.map(icon  => {

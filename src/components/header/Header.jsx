@@ -15,7 +15,7 @@ export const Header = () => {
 
   return (
     <Container className="cnt-cont d-flex justify-content-start align-items-center">
-      <div className="header-flex d-flex flex-column align-items-start justify-content-between gap-3" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="300">
+      <div className="header-flex d-flex flex-column align-items-start justify-content-between gap-3" data-aos="zoom-in" data-aos-duration="800">
         <div>
           <h1 className="header-title">We build beautiful and <br />reliable web solutions</h1>
           <p className="header-parag">We strongly believe that communication, trust and transparency <br />
