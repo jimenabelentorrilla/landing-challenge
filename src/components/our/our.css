@@ -1,10 +1,10 @@
 .cont-our{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 20px;
-    min-height: 500px;
+    min-height: 540px;
     position: relative;
     z-index: 9999;
 }
@@ -33,12 +33,16 @@
   font-weight: 600;
   line-height: 1.8;
 }
+.cta-card{
+    border-radius: 3px;
+}
 
 /*Card*/
 .contenedor-card{
     background-color: aliceblue;
     border-radius: 3px;
-    height: 100%;
+    width: 322px;
+    height: 366px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -67,16 +71,6 @@
     .row-center{
         gap:20px;
     }
-    .our-text p {
-        font-size: calc(0.7em + 0.1vw);
-    }
-    .card-text h4{
-        font-size: calc(0.8em + 0.1vw);
-    }
-    .card-text p,
-    .cta-card {
-        font-size: calc(0.6em + 0.1vw);
-    }
     .circle-blue{
         width: 30px;
         height: 30px;
@@ -93,23 +87,13 @@
     .row-center{
         gap:20px;
     }
-    .our-text p {
-        font-size: calc(0.75em + 0.1vw);
-    }
-    .card-text h4{
-        font-size: calc(0.85em + 0.1vw);
-    }
-    .card-text p,
-    .cta-card {
-        font-size: calc(0.65em + 0.1vw);
-    }
     .circle-blue{
         width: 35px;
         height: 35px;
     }
     .contenedor-card{
         padding: 20px 15px;
-   }
+    }
    .icon-card {
     font-size: 0.9em; 
 }
@@ -117,44 +101,24 @@
 
 
 @media (min-width: 768px) and (max-width: 991.99px){
-    .our-text p {
-        font-size: calc(0.8em + 0.1vw);
-    }
     .row-center{
         gap:20px;
     }
     
-    .card-text h4{
-        font-size: calc(0.9em + 0.1vw);
-    }
-    .card-text p,
-    .cta-card {
-        font-size: calc(0.7em + 0.1vw);
-    }
     .circle-blue{
         width: 40px;
         height: 40px;
     }
     .contenedor-card{
         padding: 20px 15px;
-   }
+    }
    .icon-card {
         font-size: 1em; 
     }
 }
 
-
 @media (min-width: 992px) and (max-width:1199.99px){
-    .our-text p {
-        font-size: calc(0.85em + 0.1vw);
-    }
-    .card-text h4{
-        font-size: calc(0.95em + 0.1vw);
-    }
-    .card-text p,
-     .cta-card {
-        font-size: calc(0.75em + 0.1vw);
-    }
+   
     .circle-blue{
         width: 45px;
         height: 45px;
@@ -167,23 +131,22 @@
     }
 }
 @media (width > 1200px){
-    
-    .our-text p {
-        font-size: 0.9em;
+    .our-text h4{
+        font-size: 1.625em;
     }
-    .card-text h4{
-        font-size: 1em;
+    .our-text p, .card-text h4 {
+        font-size: 0.906em;
     }
     .card-text p,
     .cta-card {
-        font-size: 0.8em;
+        font-size: 0.75em;
     }
     .circle-blue{
         width: 50px;
         height: 50px;
     }
     .contenedor-card{
-        padding: 40px 25px;
+        padding: 2em;
     }
    .icon-card {
         font-size: 1.25em; 

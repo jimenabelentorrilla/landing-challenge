@@ -42,7 +42,7 @@ export const Tech = () => {
   return (
     <>
     <Container fluid className="tech-cont" id="tech">
-      <Container >
+      <Container bsPrefix="container">
         <Row className="mw-tch">
           <Col sm={12} md={12} lg={12} xl={8} xxl={8} className="d-flex justify-content-center" data-aos="fade-right" data-aos-duration="2000">
             <div className="tech-text">

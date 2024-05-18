@@ -25,13 +25,13 @@ export const Cards = () => {
   return (
     
       <>
-        <Col sm={12} md={12} lg={12} xl={6} xxl={6} className="col-rg">
+        <Col xs={6} sm={6} md={6} lg={6} xl={6} xxl={6} className="col-rg">
           <CardBlue
             title="Get in touch with us"
             btn="Hire us"
           />
         </Col>
-        <Col sm={12} md={12} lg={12} xl={6} xxl={6} className="col-lf">
+        <Col xs={6} sm={6} md={6} lg={6} xl={6} xxl={6} className="col-lf">
           <CardBlue
             title="Our Projects"
             btn="See Projects"

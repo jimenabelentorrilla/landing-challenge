@@ -2,17 +2,17 @@
     background-color: transparent !important;
     width: 100%;
 }
-
 .navbar-brand{
-    font-weight: 500;
+    font-size: 0.875em;
+    font-weight: 600;
     color: var(--white);
 }
 .navbar-brand:hover, .navbar-brand:focus{
     color: var(--white);
 }
 .navlink{
-    font-weight: 500;
     color: var(--light-grey);
+    font-weight: 500;
     text-decoration: none;
 }
 .navlink:hover , .navlink:focus{
@@ -21,58 +21,45 @@
 .wh-hire{
     color: var(--white);
     font-weight: 500;
-    display: flex;
-    align-items: center;
 }
 .nav-ul{
+    font-size: 0.875em;
     display: flex;
     flex-direction: row;
 }
 .nav-hm{
-    display: flex;
-    flex-direction: column;
     gap: 25px;
 }
-
 .nav-hm a{
-    font-size: 22px;
+    font-size: 1.375em;
     color: #2D2D2D;
     font-weight: 400;
-    line-height: 28px;
+    line-height: 1.8;
     text-decoration: none !important; 
 }
 .hire-cta li{
     font-weight: 600;
 }
-
-@media (width < 576px) {
+@media (width < 575.99px){
     .nav-ul{
         display: none;
-      }
+    }
 }
 
-@media (min-width: 576px) and (max-width: 767.99px){
+@media (min-width: 576px) and (max-width: 991.99px){
     .nav-ul{
         display: none;
-      }
+    }
 }
 
-
-@media (min-width: 768px) and (max-width: 991.99px){
-    .nav-ul{
-        display: none;
-      }
-}
-
-
-@media (min-width: 992px) and (max-width:1199.99px){
+@media (min-width: 992px) and (max-width: 1199.99px){
     .menu{
         display: none;
-      }
+    }
 }
 @media (width > 1200px){
     .menu{
         display: none;
-      }
+    }
 }
 

@@ -11,12 +11,11 @@
 }
 .pad-cli{
     padding-top: 100px;
-    max-width: 1140px;
     gap: 15px;
 }
 .client-title{
     text-transform: uppercase;
-    font-size: 0.7em;
+    font-size: 0.594em;
     font-weight: 600;
     line-height: 1.8;
     color: var(--light-grey);
@@ -88,6 +87,6 @@
         gap:6rem;
     }
     .brand{
-        max-width: 80px;
+        max-width: 100px;
     }
 }

@@ -33,24 +33,26 @@ const brands = [
 export const Clients = () => {
   return (
     <Container fluid className="clients-cnt">
-      <Row className="pad-cli">
-          <div>
-            <h5 className="d-flex justify-content-center client-title">clients we worked with</h5>
-          </div>
-          <div className="brands">
-            {
-              brands.map(brand => {
-                return (
-                  <div key={brand.id} className="cnt-brand">
-                    <img className="brand" src={brand.name} />
-                  </div>
-                )})
-            } 
-          </div>      
-      </Row>
-      <Row className="posit">
-        <Cards />
-      </Row>
+      <Container bsPrefix="container">
+        <Row className="pad-cli">
+            <div>
+              <h5 className="d-flex justify-content-center client-title">clients we worked with</h5>
+            </div>
+            <div className="brands">
+              {
+                brands.map(brand => {
+                  return (
+                    <div key={brand.id} className="cnt-brand">
+                      <img className="brand" src={brand.name} />
+                    </div>
+                  )})
+              } 
+            </div>      
+        </Row>
+        <Row className="posit">
+          <Cards />
+        </Row>
+      </Container>
     </Container>
   )
 }

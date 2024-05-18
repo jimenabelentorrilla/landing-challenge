@@ -1,7 +1,7 @@
 .tarjeta{
     background-color: var(--blue);
-    min-height: 220px;
-    width: 100%;
+    min-height: 228px;
+    width: 31.35rem;
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
@@ -11,6 +11,7 @@
     position: relative;
     top: 65px;
     gap: 2em;
+    padding-top: 40px;
 }
 .card-flex{
     display: flex;
@@ -24,18 +25,21 @@
 .card-flex h4{
     margin: 0;
     line-height: 1.8;
+    font-weight: 500;
 }
 .card-flex p{
-    font-size: 0.7em;
+    font-size: 0.75em;
     line-height: 1.8;
+    font-weight: 400;
 }
 .col-rg , .col-lf{
     justify-content: center;
     display: flex;
+    width: 100%;
 }
 .cnt-ph {
     position: relative; 
-    width: 40%; 
+    width: 45%; 
     height: 100%; 
 }
   
@@ -44,10 +48,10 @@
    bottom: 0; 
    right: 0; 
    max-width: 100%; 
-   max-height: 95%; 
+   max-height: 100%; 
 }
 .card-btn{
-    font-size: 0.7em;
+    font-size: 0.75em;
     border: 1px white solid;
     background-color: transparent;
     color: white;
@@ -64,11 +68,19 @@
     .card-flex h4{
         font-size: 1.2em;
     }
+    .posit{
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.99px){
     .card-flex h4{
         font-size: 1.3em;
+    }
+    .posit{
+        display: flex;
+        justify-content: center;
     }
 }
 
@@ -77,15 +89,23 @@
     .card-flex h4{
         font-size: 1.4em;
     }
+    .posit{
+        display: flex;
+        justify-content: center;
+    }
 }
 
 
 @media (min-width: 992px) and (max-width:1199.99px){
     .card-flex h4{
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
     .card-flex p{
         font-size: 0.8em
+    }
+    .posit{
+        display: flex;
+        justify-content: center;
     }
     
 }
@@ -93,19 +113,17 @@
     .col-rg{
         justify-content: start;
         display: flex;
+        width: 50%;
     }
     .col-lf{
         justify-content: end;
         display: flex;
+        width: 50%;
     }
     .posit{
         gap:0;
-        width: 1140px;
     }
     .card-flex h4{
-        font-size: 1.5em;
-    }
-    .card-flex p{
-        font-size: 0.8em
+        font-size: 1.469em;
     }
 }

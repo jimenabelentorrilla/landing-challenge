@@ -3,10 +3,11 @@ import { useState, useEffect } from "react";
 import { Container } from "react-bootstrap";
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import Offcanvas from 'react-bootstrap/Offcanvas';
 import Icon from "../../assets/postcard.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Offcanvas from 'react-bootstrap/Offcanvas';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
@@ -37,7 +38,7 @@ export const NavComponent = () => {
                     <Nav.Link bsPrefix="navlink" href="#tech" className="me-4">Technology</Nav.Link>
                     <Nav.Link bsPrefix="navlink" href="#" className="me-4">Case studies</Nav.Link>
                     <Nav.Link bsPrefix="navlink" href="#" className="me-4">About</Nav.Link>
-                    <Nav.Link bsPrefix="navlink" href="#" className="wh-hire">
+                    <Nav.Link bsPrefix="navlink" href="#" className="wh-hire d-flex align-items-center">
                       <img src={Icon} className="me-2 " />Hire us</Nav.Link>
                   </div>
                 </Nav>
@@ -47,7 +48,7 @@ export const NavComponent = () => {
           <Offcanvas.Header closeButton><Offcanvas.Title></Offcanvas.Title></Offcanvas.Header>
           <Offcanvas.Body>
               <div>
-                  <ul className='nav-hm'>
+                  <ul className='nav-hm d-flex flex-column'>
                       <a href="#services"><li>Services</li></a>
                       <a  href="#tech"><li>Technology</li></a>
                       <a  href="#"><li>Case studies</li></a>
