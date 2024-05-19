@@ -1,5 +1,5 @@
 import "./our.css";
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLaptopFile, faFileLines, faRulerHorizontal } from "@fortawesome/free-solid-svg-icons";
 import { Col, Container, Row } from "react-bootstrap";
@@ -9,8 +9,8 @@ import "aos/dist/aos.css";
 
 const CardOur = ({ icon , title, parag }) => {
   return (
-    <div className="contenedor-card">
-      <div className="circle-blue">
+    <div className="contenedor-card d-flex justify-content-between flex-column align-items-center gap-2">
+      <div className="circle-blue d-flex justify-content-center align-items-center">
         <FontAwesomeIcon icon={icon} className="icon-card" style={{color: "#FFFFFF",}}/>
       </div>
       <div className="card-text">
@@ -31,7 +31,7 @@ export const Our = () => {
   }, []) 
 
   return (
-    <Container className="cont-our" id="services">
+    <Container className="cont-our d-flex flex-column justify-content-between align-items-center gap-3" id="services">
       <Row>
         <div className="our-text">
           <h2>Our Services</h2>
@@ -49,7 +49,7 @@ export const Our = () => {
           />
           </div>
         </Col>
-        <Col sm={12} md={12} lg={4} xl={4} xxl={4} className="flex" data-aos="zoom-in-down" data-aos-duration="1200" data-aos-delay="500">
+        <Col sm={12} md={12} lg={4} xl={4} xxl={4} className="d-flex justify-content-center" data-aos="zoom-in-down" data-aos-duration="1200" data-aos-delay="500">
           <div className="width-card">
             <CardOur 
             icon={faLaptopFile}
@@ -58,7 +58,7 @@ export const Our = () => {
           />
           </div>
         </Col>
-        <Col sm={12} md={12} lg={4} xl={4} xxl={4} className="flex" data-aos="zoom-in-down" data-aos-duration="1200" data-aos-delay="700">
+        <Col sm={12} md={12} lg={4} xl={4} xxl={4} className="d-flex justify-content-center" data-aos="zoom-in-down" data-aos-duration="1200" data-aos-delay="700">
           <div className="width-card">
             <CardOur 
             icon={faRulerHorizontal}

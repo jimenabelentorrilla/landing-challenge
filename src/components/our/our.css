@@ -1,18 +1,13 @@
 .cont-our{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
     min-height: 540px;
     position: relative;
     z-index: 9999;
 }
-.our-text{
+.our-text, .card-text {
     text-align: center;
 }
 .our-text h2{
-    color:var(--white);
+    color: var(--white);
     font-weight: 700;
     line-height: 1.8;
 }
@@ -23,15 +18,11 @@
     display: flex;
     justify-content: center !important;
 }
-.flex{
-    display: flex;
-    justify-content: center;
-}
 .our-text p,
 .card-text p,
 .card-text h4 {
-  font-weight: 600;
-  line-height: 1.8;
+    font-weight: 600;
+    line-height: 1.8;
 }
 .cta-card{
     border-radius: 3px;
@@ -39,26 +30,15 @@
 
 /*Card*/
 .contenedor-card{
-    background-color: aliceblue;
+    background-color: var(--white);
     border-radius: 3px;
-    width: 322px;
-    height: 366px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
+    max-width: 20.125rem;
+    max-height: 22.875rem;
     text-align: center;
 }
 .circle-blue{
     background-color: var(--blue);
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.card-text {
-    text-align: center;
 }
 .card-text h4{
     color: var(--black);
@@ -70,6 +50,7 @@
 @media (width < 576px) {
     .row-center{
         gap:20px;
+        flex-direction: column;
     }
     .circle-blue{
         width: 30px;
@@ -77,15 +58,27 @@
     }
     .contenedor-card{
         padding: 20px 15px;
-   }
-   .icon-card {
+    }
+    .icon-card {
     font-size: 0.8em; 
+    }
+    /*fonts*/
+    .our-text h2{
+        font-size: 1.125em; /**********cambiado************/
+    }
+    .our-text p, .card-text h4 {
+        font-size: 0.706em; /**********cambiado************/
+    }
+    .card-text p,
+    .cta-card {
+        font-size: 0.60em; /**********cambiado************/
     }
 }
 
 @media (min-width: 576px) and (max-width: 767.99px){
     .row-center{
         gap:20px;
+        flex-direction: column;
     }
     .circle-blue{
         width: 35px;
@@ -94,17 +87,27 @@
     .contenedor-card{
         padding: 20px 15px;
     }
-   .icon-card {
+    .icon-card {
     font-size: 0.9em; 
+    }
+    /*fonts*/
+    .our-text h2{
+        font-size: 1.225em; /**********cambiado************/
+    }
+    .our-text p, .card-text h4 {
+        font-size: 0.756em; /**********cambiado************/
+    }
+    .card-text p,
+    .cta-card {
+        font-size: 0.60em; /**********cambiado************/
+    }
 }
-}
-
 
 @media (min-width: 768px) and (max-width: 991.99px){
     .row-center{
         gap:20px;
+        flex-direction: column;
     }
-    
     .circle-blue{
         width: 40px;
         height: 40px;
@@ -112,35 +115,46 @@
     .contenedor-card{
         padding: 20px 15px;
     }
-   .icon-card {
+    .icon-card {
         font-size: 1em; 
+    }
+    /*fonts*/
+    .our-text h2{
+        font-size: 1.425em; /**********cambiado************/
+    }
+    .our-text p, .card-text h4 {
+        font-size: 0.806em; /**********cambiado************/
+    }
+    .card-text p,
+    .cta-card {
+        font-size: 0.65em; /**********cambiado************/
     }
 }
 
 @media (min-width: 992px) and (max-width:1199.99px){
-   
     .circle-blue{
         width: 45px;
         height: 45px;
     }
     .contenedor-card{
         padding: 40px 25px;
-   }
-   .icon-card {
+    }
+    .icon-card {
         font-size: 1.1em; 
     }
-}
-@media (width > 1200px){
-    .our-text h4{
-        font-size: 1.625em;
+    /*fonts*/
+    .our-text h2{
+        font-size: 1.625em; /**********cambiado************/
     }
     .our-text p, .card-text h4 {
-        font-size: 0.906em;
+        font-size: 0.856em;   /**********cambiado************/
     }
     .card-text p,
     .cta-card {
-        font-size: 0.75em;
+        font-size: 0.70em; /**********cambiado************/
     }
+}
+@media (width > 1200px){
     .circle-blue{
         width: 50px;
         height: 50px;
@@ -148,8 +162,20 @@
     .contenedor-card{
         padding: 2em;
     }
-   .icon-card {
+    .icon-card {
         font-size: 1.25em; 
+    }
+
+    /*fonts*/
+    .our-text h2{
+        font-size: 1.625em; /**********original************/
+    }
+    .our-text p, .card-text h4 {
+        font-size: 0.906em;   /**original**/
+    }
+    .card-text p,
+    .cta-card {
+        font-size: 0.75em; /**********original************/
     }
 }
 

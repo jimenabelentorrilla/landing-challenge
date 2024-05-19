@@ -6,7 +6,6 @@
     font-weight: 600;
     color: var(--white);
     line-height: 1.4;
-    font-size: 2.344em;
 }
 .cta-header-flex{
     display: flex;
@@ -18,7 +17,6 @@
     line-height: 1.7em;
 }
 .btn{
-    font-size: 0.8em;
     border-radius: 5px;
     font-weight: 600;
 }
@@ -27,6 +25,9 @@
 }
 
 @media (width < 576px) {
+    .header-title{
+        font-size: 1.744em !important;
+    }
     .header-parag {
         font-size: 0.75em;
     }
@@ -39,6 +40,9 @@
 }
 
 @media (min-width: 576px) and (max-width: 767.99px){
+    .header-title{
+        font-size: 1.944em !important;
+    }
     .header-parag {
         font-size: 0.8em;
     }
@@ -49,8 +53,11 @@
 
 
 @media (min-width: 768px) and (max-width: 991.99px){
+    .header-title{
+        font-size: 2.044em !important;
+    }
     .header-parag {
-        font-size: 0.9em;
+        font-size: 0.85em;
     }
     .btn {
         font-size: 0.8em;
@@ -59,20 +66,28 @@
 
 
 @media (min-width: 992px) and (max-width:1199.99px){
+    .header-title{
+        font-size: 2.144em !important;
+    }
     .header-parag {
-        font-size: 1em;
+        font-size: 0.9em;
     }
     .btn {
         font-size: 0.85em;
     }
 }
+
 @media (width > 1200px){
+    .header-title{
+        font-size: 2.344em !important;
+    }
     .header-parag{
         font-size: 1em;
     }
     .btn{
         font-size: 0.8em;
     }
+    /****margenes de la app en general***/
     .container{
         max-width: 75%;
     }
