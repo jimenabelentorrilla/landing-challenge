@@ -1,17 +1,12 @@
 .clients-cnt{
     background-color: var(--white);
     min-height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
     position: relative;
     bottom: 60px;
 }
 .pad-cli{
-    padding-top: 100px;
-    gap: 15px;
+    padding-top: 5rem;
+    gap: 1em;
 }
 .client-title{
     text-transform: uppercase;
@@ -21,13 +16,8 @@
     color: var(--light-grey);
 }
 .brands{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
     width: 100%;
 }
-
 .cnt-brand{
     max-width: 100%;
     height: auto;
@@ -40,53 +30,58 @@
 .brand:hover{
     transform: scale(1.2);
 }
+.posit{
+    position: relative;
+    top: 65px;
+    gap: 2em;
+    padding-top: 40px;
+}
 
 @media (width < 576px) {
-    .brands{
-        gap: 1rem;
-    }
     .brand{
-        max-width: 30px;
+        max-width: 2.25rem;
     }
-    
+    .posit{
+        display: flex;
+        justify-content: center;
+    }  
 }
 
 @media (min-width: 576px) and (max-width: 767.99px){
-    .brands{
-        gap: 2rem;
-    }
     .brand{
-        max-width: 40px;
+        max-width: 3.25rem;
     }
-    
+    .posit{
+        display: flex;
+        justify-content: center;
+    }
 }
-
 
 @media (min-width: 768px) and (max-width: 991.99px){
-    .brands{
-        gap: 4rem;
-    }
     .brand{
-        max-width: 50px;
+        max-width: 4.25rem;
     }
-    
+    .posit{
+        display: flex;
+        justify-content: center;
+    }
 }
-
 
 @media (min-width: 992px) and (max-width:1199.99px){
-    .brands{
-        gap: 4rem;
-    }
     .brand{
-        max-width: 60px;
+        max-width: 5.25rem;
     }
-    
+    .posit{
+        display: flex;
+        justify-content: center;
+    }
 }
+
 @media (width > 1200px){
-    .brands{
-        gap:6rem;
-    }
     .brand{
-        max-width: 100px;
+        max-width: 6.25rem;
+    }
+    .posit{
+        gap:0;
     }
 }

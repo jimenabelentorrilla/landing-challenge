@@ -3,21 +3,8 @@
     min-height: 228px;
     width: 31.35rem;
     border-radius: 5px;
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-}
-.posit{
-    position: relative;
-    top: 65px;
-    gap: 2em;
-    padding-top: 40px;
 }
 .card-flex{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: start;
     border-radius: 3px;
     color: var(--white);
     padding: 2em 0em 2em 2em;
@@ -28,7 +15,6 @@
     font-weight: 500;
 }
 .card-flex p{
-    font-size: 0.75em;
     line-height: 1.8;
     font-weight: 400;
 }
@@ -66,48 +52,42 @@
 
 @media (width < 576px) {
     .card-flex h4{
-        font-size: 1.2em;
+        font-size: 1.269em;
     }
-    .posit{
-        display: flex;
-        justify-content: center;
+    .card-flex p{
+        font-size: 0.65em;
+    }
+    .cnt-ph {
+        display: none;
     }
 }
 
 @media (min-width: 576px) and (max-width: 767.99px){
     .card-flex h4{
-        font-size: 1.3em;
+        font-size: 1.269em;
     }
-    .posit{
-        display: flex;
-        justify-content: center;
+    .card-flex p{
+        font-size: 0.65em;
     }
 }
 
-
 @media (min-width: 768px) and (max-width: 991.99px){
     .card-flex h4{
-        font-size: 1.4em;
+        font-size: 1.369em;
     }
-    .posit{
-        display: flex;
-        justify-content: center;
+    .card-flex p{
+        font-size: 0.70em;
     }
 }
 
 
 @media (min-width: 992px) and (max-width:1199.99px){
     .card-flex h4{
-        font-size: 1.4em;
+        font-size: 1.369em;
     }
     .card-flex p{
-        font-size: 0.8em
-    }
-    .posit{
-        display: flex;
-        justify-content: center;
-    }
-    
+        font-size: 0.70em;
+    }  
 }
 @media (width > 1200px){
     .col-rg{
@@ -120,10 +100,10 @@
         display: flex;
         width: 50%;
     }
-    .posit{
-        gap:0;
-    }
     .card-flex h4{
         font-size: 1.469em;
+    }
+    .card-flex p{
+        font-size: 0.75em;
     }
 }

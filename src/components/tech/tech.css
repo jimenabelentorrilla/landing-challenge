@@ -1,20 +1,17 @@
 .tech-cont{
     min-height: 550px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: var(--blue);
     width: 100%;
     position: relative;
     z-index: 1;
 }
 .mw-tch{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    padding-top: 60px;
+    padding-top: 3.75em;
+    gap: 0.5rem;
 }
-
+.tech-text{
+    align-items: center;
+}
 .tech-text h2{
     color: var(--white);
     font-weight: 500;
@@ -23,74 +20,90 @@
 }
 .tech-text p{
     color: #9BB8FF;
-    font-size: 0.9em;
     line-height: 1.8;
-}
-.center-skill{
-    display: flex;
-    justify-content: center;
+    max-width: 500px;
+    text-align: center;
 }
 .flex-skill-icon{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    gap: 2.5em;
     width: 100%;
-    
 }
+
 @media (width < 576px) {
     .tech-cont{
-        bottom: 40px;
-    }
-    .tech-text p{
-        width: 100%;
+        bottom: 2.5rem;
     }
     .icon-tch{
-        font-size: 1.7em;
+        font-size: 2.1em;
     }
+    .tech-text h2{
+        font-size: 1.481em;
+    }
+    .tech-text p{
+        font-size: 0.85em;
+    } 
 }
 
 @media (min-width: 576px) and (max-width: 767.99px){
     .tech-cont{
-        bottom: 45px;
-    }
-    .tech-text p{
-        width: 100%;
+        bottom: 2.8125rem;
     }
     .icon-tch{
-        font-size: 1.9em;
+        font-size: 2.5rem;
+    }
+    .tech-text h2{
+        font-size: 1.581em;
+    }
+    .tech-text p{
+        font-size: 0.85em;
     }
 }
 
 
 @media (min-width: 768px) and (max-width: 991.99px){
     .tech-cont{
-        bottom: 40px;
-    }
-    .tech-text p{
-        width: 100%;
+        bottom: 2.5em;
     }
     .icon-tch{
-        font-size: 2em;
+        font-size: 3em;
+    }
+    .tech-text h2{
+        font-size: 1.681em;
+    }
+    .tech-text p{
+        font-size: 0.9em;
     }
 }
 
 
 @media (min-width: 992px) and (max-width:1199.99px){
     .tech-cont{
-        bottom: 60px;
-    }
-    .tech-text p{
-        width: 100%;
+        bottom: 3.75rem;
     }
     .icon-tch{
-        font-size: 2.5em;
+        font-size: 3.2em;
+    }
+    .tech-text h2{
+        font-size: 1.781em;
+    }
+    .tech-text p{
+        font-size: 0.95em;
     }
 }
 @media (width > 1200px){
     .tech-cont{
-        bottom: 50px;
+        bottom: 3.125rem;
+    }
+    .mw-tch{
+        gap:0;
+    }
+    .flex-skill-icon{
+        width: 65%;
+    }
+    .icon-tch{
+        font-size: 3.75em;
+    }
+    .tech-text{
+        align-items: flex-start;
     }
     .tech-text h2{
         font-size: 1.781em;
@@ -98,17 +111,8 @@
     }
     .tech-text p{
         font-size: 1em;
-        width: 72%;
+        text-align: start;
     }
-    .icon-tch{
-        font-size: 3.75em;
-    }
-    .mw-tch{
-        gap:0;
-    }
-    .flex-skill-icon{
-        width: 55%;
-    }
+    
 }
-
 

@@ -37,13 +37,13 @@ const brands = [
 
 export const Clients = () => {
   return (
-    <Container fluid className="clients-cnt">
+    <Container fluid className="clients-cnt d-flex flex-column justify-content-center align-items-center gap-3">
       <Container bsPrefix="container">
         <Row className="pad-cli">
             <div>
               <h5 className="d-flex justify-content-center client-title">clients we worked with</h5>
             </div>
-            <div className="brands">
+            <div className="brands d-flex flex-wrap justify-content-between gap-2">
               {
                 brands.map(brand => {
                   return (

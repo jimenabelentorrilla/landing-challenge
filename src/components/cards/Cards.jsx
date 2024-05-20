@@ -8,8 +8,8 @@ import { useEffect } from "react";
 const CardBlue = ({ title, btn, img }) => {
   return (
     <>
-      <div className="tarjeta">
-        <div className="card-flex">
+      <div className="tarjeta d-flex justify-content-between align-content-center">
+        <div className="card-flex d-flex flex-column justify-content-around align-items-start">
           <h4>{title}</h4>
           <p>Maecenas sed diam eget risus varius <br /> blandit sit amet non magna.</p>
           <div>

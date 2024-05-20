@@ -39,7 +39,7 @@ export const NavComponent = () => {
         <Offcanvas show={show} onClick={handleClose}>
           <Offcanvas.Header closeButton><Offcanvas.Title></Offcanvas.Title></Offcanvas.Header>
           <Offcanvas.Body>
-              <div>
+              <div className="d-flex align-items-start justify-content-start">
                   <ul className='nav-hm d-flex flex-column'>
                       <a href="#services"><li>Services</li></a>
                       <a  href="#tech"><li>Technology</li></a>

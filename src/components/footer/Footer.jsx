@@ -100,16 +100,16 @@ const FooterLink = ({ href, name, tb }) => {
 export const Footer = () => {
   return (
     <Container  className="cnt-footer">
-      <Row className="row-footer">
+      <Row className="row-footer d-flex align-items-end">
         <Col sm={12} md={12} lg={6} xl={6} xxl={6} className="d-flex justify-content-start align-items-start">
-          <div className="box-text">
+          <div className="box-text d-flex flex-column justify-content-center align-items-start">
             <div className="cnt-text-foo">
               <h5>compleet labs</h5>
               <p>Fusce dapibus, tellus ac cursus commodo, tortor<br />
                  mauris condimentum nibh, ut fermentum massa<br />
                   justo sit amet risus. Donec ullamcorper nulla.</p>
             </div>
-            <div className="cnt-icon">
+            <div className="cnt-icon d-flex justify-content-start gap-3">
               { social.map(icon => (
                 <a 
                   key={icon.id} 
@@ -124,11 +124,11 @@ export const Footer = () => {
           </div>
         </Col>
         <Col sm={12} md={12} lg={6} xl={6} xxl={6} className="d-flex justify-content-center">
-          <div className="cnt-ul">
+          <div className="cnt-ul d-flex justify-content-between">
             { 
               footerSections.map(section => {
                 return (
-                  <ul key={section.title} className="ul-footer">
+                  <ul key={section.title} className="ul-footer d-flex flex-column align-items-start gap-2">
                     <li className="bold-foo">{section.title}</li>
                       { section.links.map(link => (
                         <FooterLink 

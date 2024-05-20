@@ -41,11 +41,11 @@ export const Tech = () => {
 
   return (
     <>
-    <Container fluid className="tech-cont" id="tech">
+    <Container fluid className="tech-cont d-flex justify-content-center align-items-center" id="tech">
       <Container bsPrefix="container">
-        <Row className="mw-tch">
+        <Row className="mw-tch d-flex align-items-center">
           <Col sm={12} md={12} lg={12} xl={8} xxl={8} className="d-flex justify-content-center" data-aos="zoom-in-right" data-aos-duration="1200">
-            <div className="tech-text">
+            <div className="tech-text d-flex flex-column justify-content-center">
               <h2>We use cutting edge technology</h2>
               <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean
               lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus
@@ -55,8 +55,8 @@ export const Tech = () => {
               faucibus dolor auctor.</p>
             </div>
           </Col>
-          <Col sm={12} md={12} lg={12} xl={4} xxl={4} className="center-skill" data-aos="zoom-in-left" data-aos-duration="1200">
-            <div className="flex-skill-icon">
+          <Col sm={12} md={12} lg={12} xl={4} xxl={4} className="center-skill d-flex justify-content-center" data-aos="zoom-in-left" data-aos-duration="1200">
+            <div className="flex-skill-icon d-flex flex-wrap justify-content-center gap-5">
               {
                 icons.map(icon  => {
                   return (

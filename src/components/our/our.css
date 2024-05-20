@@ -64,14 +64,14 @@
     }
     /*fonts*/
     .our-text h2{
-        font-size: 1.125em; /**********cambiado************/
+        font-size: 1.125em; 
     }
     .our-text p, .card-text h4 {
-        font-size: 0.706em; /**********cambiado************/
+        font-size: 0.706em; 
     }
     .card-text p,
     .cta-card {
-        font-size: 0.60em; /**********cambiado************/
+        font-size: 0.60em; 
     }
 }
 
@@ -92,14 +92,14 @@
     }
     /*fonts*/
     .our-text h2{
-        font-size: 1.225em; /**********cambiado************/
+        font-size: 1.225em; 
     }
     .our-text p, .card-text h4 {
-        font-size: 0.756em; /**********cambiado************/
+        font-size: 0.756em; 
     }
     .card-text p,
     .cta-card {
-        font-size: 0.60em; /**********cambiado************/
+        font-size: 0.60em; 
     }
 }
 
@@ -120,14 +120,14 @@
     }
     /*fonts*/
     .our-text h2{
-        font-size: 1.425em; /**********cambiado************/
+        font-size: 1.425em; 
     }
     .our-text p, .card-text h4 {
-        font-size: 0.806em; /**********cambiado************/
+        font-size: 0.806em; 
     }
     .card-text p,
     .cta-card {
-        font-size: 0.65em; /**********cambiado************/
+        font-size: 0.65em; 
     }
 }
 
@@ -144,14 +144,14 @@
     }
     /*fonts*/
     .our-text h2{
-        font-size: 1.625em; /**********cambiado************/
+        font-size: 1.625em; 
     }
     .our-text p, .card-text h4 {
-        font-size: 0.856em;   /**********cambiado************/
+        font-size: 0.856em;   
     }
     .card-text p,
     .cta-card {
-        font-size: 0.70em; /**********cambiado************/
+        font-size: 0.70em; 
     }
 }
 @media (width > 1200px){
@@ -168,14 +168,14 @@
 
     /*fonts*/
     .our-text h2{
-        font-size: 1.625em; /**********original************/
+        font-size: 1.625em;
     }
     .our-text p, .card-text h4 {
-        font-size: 0.906em;   /**original**/
+        font-size: 0.906em;   
     }
     .card-text p,
     .cta-card {
-        font-size: 0.75em; /**********original************/
+        font-size: 0.75em;
     }
 }
 

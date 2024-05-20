@@ -1,6 +1,5 @@
 .navbar{
     background-color: transparent !important;
-    width: 100%;
 }
 .navbar-brand{
     font-size: 0.875em;
@@ -29,6 +28,7 @@
 }
 .nav-hm{
     gap: 25px;
+    text-align: start;
 }
 .nav-hm a{
     font-size: 1.375em;
@@ -37,9 +37,16 @@
     line-height: 1.8;
     text-decoration: none !important; 
 }
+.nav-hm a li{
+    list-style-type: none !important;
+}
 .hire-cta li{
     font-weight: 600;
 }
+.offcanvas{
+    z-index: 9999;
+}
+
 @media (width < 575.99px){
     .nav-ul{
         display: none;
