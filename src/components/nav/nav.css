@@ -16,6 +16,7 @@
 }
 .navlink:hover , .navlink:focus{
     color: var(--white);
+    transition: .2s ease-in-out;
 }
 .wh-hire{
     color: var(--white);

@@ -23,7 +23,7 @@
 }
 .social-icn:hover , .links:hover{
     cursor: pointer;
-    transition: .3s ease;
+    transition: .2s ease-in-out;
     color: var(--white);    
 }
 
