@@ -1,10 +1,10 @@
 .cnt-footer{
     background-color: var(--dark-grey);
-    min-height: 200px;
+    min-height: 20vh;
     padding-top: 3rem;
 }
 .row-footer{
-    min-height: 220px;
+    min-height: 22vh;
 }
 .cnt-text-foo{
     line-height: 1.8;

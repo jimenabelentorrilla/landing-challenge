@@ -44,7 +44,7 @@ export const Tech = () => {
     <Container fluid className="tech-cont d-flex justify-content-center align-items-center" id="tech">
       <Container bsPrefix="container">
         <Row className="mw-tch d-flex align-items-center">
-          <Col sm={12} md={12} lg={12} xl={8} xxl={8} className="d-flex justify-content-center" data-aos="zoom-in-right" data-aos-duration="1200">
+          <Col sm={12} md={12} lg={12} xl={8} xxl={8} className="cnt-cnt" data-aos="zoom-in-right" data-aos-duration="1200">
             <div className="tech-text d-flex flex-column justify-content-center">
               <h2>We use cutting edge technology</h2>
               <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean

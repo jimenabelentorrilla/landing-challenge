@@ -53,17 +53,21 @@ const footerSections = [
     title: "case studies",
     links: [
       { 
-        href: "#", 
-        name: "Swiss Airlines" 
+        href: "https://www.swiss.com/ar/es/homepage", 
+        name: "Swiss Airlines",
+        tb: "_blank" 
       },
-      { href: "#", 
-        name: "Google" 
+      { href: "https://www.google.com/", 
+        name: "Google",
+        tb: "_blank" 
     },
-      { href: "#", 
-        name: "Apple" 
+      { href: "https://www.apple.com/la/", 
+        name: "Apple",
+        tb: "_blank" 
     },
-      { href: "#", 
-        name: "Nike" 
+      { href: "https://www.nike.com.ar/", 
+        name: "Nike",
+        tb: "_blank" 
       }
     ]
   },

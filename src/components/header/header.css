@@ -1,5 +1,5 @@
 .cnt-cont{
-    min-height: 575px;
+    min-height: 100.5vh;
     position: relative;
 }
 .header-title{
@@ -7,10 +7,7 @@
     color: var(--white);
     line-height: 1.4;
 }
-.cta-header-flex{
-    display: flex;
-    flex-direction: row;
-}
+
 .header-parag{
     color: var(--light-grey);
     font-weight: 600;

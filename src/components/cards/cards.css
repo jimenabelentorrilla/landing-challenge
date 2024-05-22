@@ -1,6 +1,6 @@
 .tarjeta{
     background-color: var(--blue);
-    min-height: 228px;
+    min-height: 22.8vh;
     width: 31.35rem;
     border-radius: 5px;
 }
@@ -101,7 +101,7 @@
         width: 50%;
     }
     .card-flex h4{
-        font-size: 1.469em;
+        font-size: 1.369em;
     }
     .card-flex p{
         font-size: 0.75em;

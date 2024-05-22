@@ -33,7 +33,7 @@ export const Our = () => {
   return (
     <Container className="cont-our d-flex flex-column justify-content-between align-items-center gap-3" id="services">
       <Row>
-        <div className="our-text">
+        <div className="our-text d-flex justify-content-center flex-column align-items-center">
           <h2>Our Services</h2>
           <p>We feel very strong about our skills when it comes to planning, designing <br />
             and coding applications. Here is what we love to do! </p>

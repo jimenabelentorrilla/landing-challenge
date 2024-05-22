@@ -1,5 +1,5 @@
 .tech-cont{
-    min-height: 550px;
+    min-height: 100vh;
     background-color: var(--blue);
     width: 100%;
     position: relative;
@@ -26,6 +26,10 @@
 }
 .flex-skill-icon{
     width: 100%;
+}
+.cnt-cnt{
+    display: flex;
+    justify-content: center;
 }
 
 @media (width < 576px) {
@@ -112,6 +116,9 @@
     .tech-text p{
         font-size: 1em;
         text-align: start;
+    }
+    .cnt-cnt{
+        justify-content: start;
     }
     
 }

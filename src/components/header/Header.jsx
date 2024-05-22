@@ -21,9 +21,9 @@ export const Header = () => {
           <p className="header-parag">We strongly believe that communication, trust and transparency <br />
             are the essential elements of successful business relationship.<br /> Ready for the journey?</p>
         </div>
-        <div className="cta-header-flex d-flex gap-3">
-          <button className="btn btn-outline-secondary btn-lg me-4">Learn more</button>
-          <button className="btn btn-primary btn-lg me-4">Our Projects <FontAwesomeIcon icon={faArrowRightLong} /></button>
+        <div className="d-flex gap-3">
+          <button className="btn btn-outline-secondary btn-lg">Learn more</button>
+          <button className="btn btn-primary btn-lg">Our Projects <FontAwesomeIcon icon={faArrowRightLong} /></button>
         </div>
       </div>
     </Container>
