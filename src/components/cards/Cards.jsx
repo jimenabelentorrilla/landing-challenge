@@ -5,7 +5,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
-const CardBlue = ({ title, btn, img }) => {
+const CardBlue = ({ title, btn, img , alt}) => {
   return (
     <>
       <div className="tarjeta d-flex justify-content-between align-content-center">
@@ -17,7 +17,7 @@ const CardBlue = ({ title, btn, img }) => {
           </div>
         </div>
         <div className="cnt-ph">
-          <img src={img} className="img-fluid"/>
+          <img src={img} className="img-fluid" alt={alt} />
         </div>
       </div>
     </>
@@ -43,6 +43,7 @@ export const Cards = () => {
             title="Our Projects"
             btn="See Projects"
             img={Phone}
+            alt="Image of a mobile phone"
           />
         </Col>
       </>

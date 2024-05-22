@@ -48,7 +48,7 @@ export const Clients = () => {
                 brands.map(brand => {
                   return (
                     <a href={brand.link} target="_blank" key={brand.id} className="cnt-brand">
-                      <img className="brand" src={brand.name} />
+                      <img className="brand" src={brand.name} alt={brand.name} />
                     </a>
                   )})
               } 

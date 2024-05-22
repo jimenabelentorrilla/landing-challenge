@@ -1,8 +1,18 @@
-# React + Vite
+# DOMO FrontEnd Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
+Este proyecto es un desafío propuesto por DOMO.
+La tarea consistía en crear una maqueta de una landing page
+siguiendo las especificaciones detalladas en el
+[DOMO Frontend Challenge](https://domofrontendchallenge.netlify.app/).
 
-Currently, two official plugins are available:
+## Tecnologías Utilizadas
+- **React**: Biblioteca de JavaScript para construir interfaces de usuario.
+- **Vite**: Herramienta de compilación rápida para proyectos de front-end.
+- **CSS**: Para el diseño y la presentación visual.
+- **Bootstrap**: Framework CSS para un diseño responsivo y moderno.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades
+- **Diseño Responsivo:** Adaptación a diferentes tamaños de pantalla usando CSS y Bootstrap.
+- **Componentes Reutilizables:** Código organizado en componentes React para mayor mantenibilidad.
+- **Interactividad:** Uso de JavaScript para mejorar la experiencia del usuario.
